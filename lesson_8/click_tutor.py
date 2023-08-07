@@ -17,11 +17,12 @@ email_field.send_keys('test@test.ru')
 
 print(email_field.get_attribute('value'))
 print(email_field.get_attribute('maxlength'))
-
+time.sleep(3)
 email_field.send_keys('aaaaa')
 print(email_field.get_attribute('value'))
-
+time.sleep(3)
 email_field.clear()
-
-email_field.send_keys('aaaaa')
+time.sleep(3)
+email_field.send_keys('correct_email@mail.com')
 print(email_field.get_attribute('value'))
+time.sleep(3)
