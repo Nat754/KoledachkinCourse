@@ -10,3 +10,5 @@ driver = webdriver.Chrome(service=service)
 driver.get('https://hyperskill.org/tracks')
 time.sleep(3)
 driver.find_elements('class name', 'nav-link')[2].click()
+
+driver.quit()

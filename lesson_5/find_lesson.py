@@ -10,3 +10,5 @@ driver = webdriver.Chrome(service=service)
 driver.get('https://www.freeconferencecall.com/login')
 driver.find_element('id', 'loginformsubmit').click()
 time.sleep(3)
+
+driver.quit()

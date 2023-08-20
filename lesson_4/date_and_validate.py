@@ -19,3 +19,4 @@ print("Текущий заголовок: ", current_title)
 assert url == 'https://ria.ru/', 'Некоректный адрес страницы'
 assert 'РИА Новости' in current_title, 'Это неправильный заголовок'
 time.sleep(3)
+driver.quit()
