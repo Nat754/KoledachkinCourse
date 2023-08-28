@@ -63,7 +63,6 @@ time.sleep(5)
 driver.refresh()
 time.sleep(5)
 
-
 """
 －Методы для работы с cookies:
 ➖ get_cookie(name) - Получить куку по имени
