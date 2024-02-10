@@ -54,6 +54,9 @@ NO_RADIO_ACTION = ("xpath", "//label[@for='noRadio']")
 # # print(after)
 # assert 'active' in after, 'Элемент не выбран'
 
+"""
+для того чтобы заморозить выполнение джаваскрипта в консоле браузера введите вот этот код: setTimeout(function(){debugger;}, 5000) и нажмите энтер
+"""
 
 driver.get("https://demoqa.com/radio-button")
 print('YES выбрана?', driver.find_element(*YES_RADIO_STATUS).is_selected())
